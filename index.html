@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="calstyle.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+    <title>Calculator</title>
+</head>
+<body>
+   <section class="large-section pb-5">
+       <h1  class=" p-5 cal-heading  text-center pt-5">Scientific Calculator</h1>
+       <section>
+            <div class="container display-container black-gradient ">
+             <div class="row display-row">
+                <div class="input-area col-md-8  justify-content-center align-items-center">
+                    <!--<div class="input-box bg-light">
+                        <h2 class="text-center py-4">Enter Your <br> Calculation</h2> 
+                        
+                    </div>-->
+                    <textarea class="width-input mx-auto" id="myInput" name="extra" rows="2" cols="50"></textarea>
+                </div>
+                <div class="display-area  col-md-4">
+                    <div class="answer-box bg-light">
+                        <h2 id="answer-display" class="text-center py-4">Your <!--<br>--> Answer</h2>
+                    </div>
+                </div>
+             </div>
+            </div>
+
+            <div class="container input-container black-gradient text-light p-5 ">
+                <div class="row key-row ">
+                    <div class="arithmatic-col col-md-6">
+                        <div class="arithmatic-grid">
+                            <div id="clear" class="right-button button1">C</div>
+                            <div class="right-button button2">(</div>
+                            <div class="right-button button3">)</div>
+                            <div id="divide" class="right-button button4">/</div>
+                            <div class="right-button " id = "btn7">7</div>
+                            <div class="right-button " id = "btn8">8</div>
+                            <div class="right-button " id = "btn9">9</div>
+                            <div id="multiply" class="right-button button8">*</div>
+                            <div class="right-button " id = "btn4">4</div>
+                            <div class="right-button " id = "btn5">5</div>
+                            <div class="right-button " id = "btn6">6</div>
+                            <div id="minus" class="right-button button12">-</div>
+                            <div class="right-button " id = "btn1">1</div>
+                            <div class="right-button " id = "btn2">2</div>
+                            <div class="right-button" id="btn3">3</div>
+                            <div id="plus" class="right-button button16">+</div>
+                            <div id="neg" class="right-button button17">+/-</div>
+                            <div class="right-button " id="btn0"  >0</div>
+                            <div class="right-button ">.</div>
+                            <div id="equals" class="right-button button20">=</div>
+                        </div>
+                    </div>
+                    <div class="science-col col-md-6">
+                        <div class="science-grid  text-center text-light ">
+                            <div class="left-button key1">%</div>
+                            <div id="mod" class="left-button key2">mod</div>
+                            <div id="sqrt" class="left-button key3">√</div>
+                            <div id="sin" class="left-button key4">sin</div>
+                            <div id="cos" class="left-button key5">cos</div>
+                            <div id="tan" class="left-button key6">tan</div>
+                            <div id="log" class="left-button key7">log</div>
+                            <div id="natlog"class="left-button key8">ln</div>
+                            <div id="reciprocal" class="left-button key9">1/x</div>
+                            <div id="ex" class="left-button key10">eˣ</div>
+                            <div id="powertwo" class="left-button key11">x<sup>2</sup></div>
+                            <div id="power" class="left-button key12">x<sup>y</sup></div>
+                            <div id="abs" class="left-button key13">|x|</div>
+                            <div id="btn10" class="left-button key14" >π</div>
+                            <div id="btn11" class="left-button key15">e</div>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+
+            </div>
+       </section>
+
+
+       <footer class="text-center pt-5">&copy; ManupaDev/Dilshara 2021 </footer>
+
+
+   </section>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

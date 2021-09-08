@@ -1,2 +1,1 @@
-# Calculator
-A Scientific Calculator with a responsive design.
+# Responsive_Calculator
