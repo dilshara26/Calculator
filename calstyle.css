@@ -1,0 +1,134 @@
+.large-section{
+    background-image: url('images.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+@media only screen and (max-width: 768px){
+.input-area {
+    padding: 10px
+}
+.display-area{
+    padding: 10px;
+}
+}
+
+ .input-area {
+    padding-top: 48px;
+    padding-left: 48px;
+}
+.display-area{
+    padding-top: 48px;
+}
+
+.cal-heading{
+    font-family: 'Cinzel', serif !important;
+    font-size:  72px;
+    color:#444444;
+}
+@media only screen and (max-width: 768px) {
+    .cal-heading{
+       
+        font-size:  42px;
+}
+}
+.black-gradient{
+    background-image: linear-gradient(to right ,#423f3eec,#2B2B2B,#171010c9)
+}
+.display-container{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+.input-box{
+    border-radius: 10px;
+
+}
+.answer-box{
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*/////////// input containers//////////*/
+
+.input-container{
+    /* background-color:#DA0037; */
+
+}
+#answer-display{
+    
+}
+/*
+.science-col, .arithmatic-col{
+    
+
+}
+*/
+
+.width-input{
+    width: 800px;
+    font-size: 40px;
+    padding-left: 48px;
+}
+@media only screen and (max-width:1412px){
+ .width-input{ width:400px;}
+}
+@media only screen and (max-width:700px){
+ .width-input{ width:290px;}
+}
+/*///////Arithmatic section///////////*/
+.arithmatic-col{
+    padding: 0px !important;
+}
+
+.arithmatic-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    color: white;
+}
+.arithmatic-grid div{
+    /* border:1px solid white; */
+    font-size: 3rem; 
+    padding:0px;
+}
+/* /////// Button Edits ////////// */
+
+.right-button{
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #32FF6A;
+    padding:7px !important;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #FFC107;
+    color: white;
+}
+
+/* /////// Science Section////////// */
+.science-col{
+    padding: 0px !important;
+}
+
+.science-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    color: white;
+}
+.science-grid div{
+    /* border:1px solid white; */
+    font-size: 3rem; 
+    padding:0px;
+}
+.left-button{
+    background-color: #6930C3;
+    padding:7px !important;
+    cursor: pointer;
+}
